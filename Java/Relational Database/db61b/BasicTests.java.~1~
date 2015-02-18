@@ -1,0 +1,22 @@
+package db61b;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+/** FIXME
+ * @author Christopher Quan
+ * Tests basics functionality including:
+ *  1. The row class
+ */
+
+public class BasicTests {
+    
+    @Test
+    public void testRow() {
+        Row r = new Row(new String[]{"I", "am", "doing","a", "CS", "project."});
+        assertEquals(6, r.size());
+    }
+
+    public static void main(String[] args) {
+        System.exit(ucb.junit.textui.runClasses(BasicTests.class));
+    }
+}

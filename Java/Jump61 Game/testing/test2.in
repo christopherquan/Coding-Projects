@@ -1,0 +1,18 @@
+# A test (test2.in, test2.out) that several moves of a fully 
+# manual game work properly, i.e. test2.in should contain many 
+# moves for both red and blue. Again, use 'dump' to check the result. 
+java -ea jump61.Main
+None
+===#1===
+size 3
+manual Blue
+start
+1 1
+2 2
+1 1
+2 2
+3 3
+3 2
+dump
+quit
+===#2===

@@ -1,0 +1,7 @@
+# Check if exit for eof
+java -ea jump61.Main
+None
+===#1===
+size 2
+dump
+===#2===

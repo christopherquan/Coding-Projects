@@ -1,0 +1,12 @@
+# Check size and make sure correct size outputs even if 
+# out of bounds size entered.
+java -ea jump61.Main
+None
+===#1===
+size
+size 2
+size -4
+size 11
+d
+quit
+===#2===

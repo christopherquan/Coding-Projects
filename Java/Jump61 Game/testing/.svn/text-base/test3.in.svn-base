@@ -1,0 +1,14 @@
+# A test (test3.in) that the staff program can play a small 
+# game with both sides automated and # come up with a winner. 
+# You'll need to look up the appropriate % code in either 
+# the ReadMe (which you'll get when you run hw init proj2) 
+# or by running test-jump61 with no arguments. 
+java -ea jump61.Main
+None
+===#1===
+size 3
+auto red
+start
+%rb
+quit
+===#2===

@@ -1,0 +1,13 @@
+# A test that the 'set' command works. This test should
+# use 'dump' to check that a certain setup is as expected.
+staff-jump61
+None
+===#1===
+size 2
+set 1 1 2 b
+set 1 2 1 b
+set 2 1 2 r
+set 2 2 1 r
+dump
+quit
+===#2===
